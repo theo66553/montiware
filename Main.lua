@@ -4493,7 +4493,7 @@ function library:init()
                 end
 
                 self.objects.text.Text = table.concat(text,' | ')
-                self.objects.background.Size = newUDim2(0, self.objects.text.TextBounds.X + 10, 0, 17)
+                self.objects.background.Size = newUDim2(0, self.objects.text.TextBounds.X + 2, 0, 15)
 
                 local size = self.objects.background.Object.Size;
                 local screensize = workspace.CurrentCamera.ViewportSize;
